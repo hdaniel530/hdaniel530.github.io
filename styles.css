@@ -10,13 +10,27 @@ a{
   top: 0px;
   left: 0px;
   position: relative;
-} 
-p{
-  font-family: 'Quicksand';
 }
+p,ul{
+  font-family: 'Quicksand';
+  text-align: center;
+}
+ul{
+  /* text-align: center;
+  list-style-position: inside; */
+  list-style-type: none;
+}
+/* #edu{
+  background-image: url("img/brooklyn_bridge.JPG");
+  width: 100%;
+} */
+#exp, #exp p{
+  text-align: left;
+}
+
 #nav{
   width: 100%;
-  height: 50px;
+  height: 100px;
   background-image: linear-gradient(black,white);
 }
 #nav > li{
@@ -27,6 +41,10 @@ p{
 .icons{
   width: 50px;
   height: 50px;
+}
+#exps{
+  width: 150px;
+  height: 150px;
 }
 #schools{
   width: 250px;
