@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neuton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
   </head>
@@ -73,7 +74,7 @@
             <div class="hovereffect">
                 <img class="img-responsive" id="schools" src="img/nyu_icon.png" alt="">
                 <div class="overlay">
-                    <a href="#"><h2>NYU Tandon School of Engineering</h2></a>
+                    <a href="https://engineering.nyu.edu"><h2>NYU Tandon School of Engineering</h2></a>
                     </div>
             </div>
       </div>
@@ -82,7 +83,7 @@
             <div class="hovereffect">
                 <img class="img-responsive" id="schools" src="img/tvcsd_icon.jpg" alt="">
                 <div class="overlay">
-                    <a href="#"><h2>Ward Melville Senior High School</h2></a>
+                    <a href="http://www.threevillagecsd.org/schools/ward_melville_high_school"><h2>Ward Melville Senior High School</h2></a>
                 </div>
             </div>
       </div>
@@ -120,7 +121,7 @@
   <!--==========================
   Experiences Section
   ============================-->
-  <section>
+  <section id="exp">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -130,32 +131,73 @@
       </div>
     </div>
     <div class="container about-container wow fadeInUp">
-      <div class="row">
-
-        <div class="col-lg-6 about-img">
-          <img src="img/ibm.png" alt="IBM" id="exps">
-        </div>
-
-        <div class="col-md-6 about-content" id="exp">
-          <h3 class="about-title">IBM</h3>
-          <p class="about-text">
-             Automated of z/OS Service Test scenarios utilizing the JAT (JUnit Automation Tool) framework in Eclipse Photon environment
-
-          </p>
-        </div>
-        <div class="row">
-
-          <div class="col-lg-6 about-img">
-            <img src="img/catech.png" alt="CA Technologies" id="exps">
+      <div class="row" id="exp-text">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect">
+                  <img class="img-responsive" src="img/ibm.png" id="exps" alt="">
+                  <div class="overlay">
+                     <a href="https://www.ibm.com/us-en">IBM</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/catech.png" id="exps" alt="">
+                    <div class="overlay">
+                       <a href="https://www.ca.com/us.html">CA Technologies</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="hovereffect">
+                      <img class="img-responsive" src="img/nyu_icon.png" id="exps" alt="">
+                      <div class="overlay">
+                         <a href="https://www.nyu.edu">NYU</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/kumon.png" id="exps" alt="">
+                        <div class="overlay">
+                           <a href="https://www.kumon.com">Kumon Math and Reading Center</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <p class="about-text"><strong><em>June-August 2019</em></strong><br>
+                        •Automated of z/OS Service Test scenarios utilizing the JAT (JUnit Automation Tool) framework in Eclipse Photon environment</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <p class="about-text">
+                            <strong><em>June-August 2018</em></strong><br>
+                            •Created automation scripts for IT functions such as cache clear and log rotation to be used in production and improve efficiency, which operated in Windows and UNIX/Linux environments<br>                          
+                            <strong><em>June-August 2017</em></strong><br>
+                            •Created business mapping on Excel spreadsheets where applications were mapped to application owners and business functions<br>
+                            •Scripted in Python for Outlook 365 and as well as JavaScript for Amazon Echo on AWS Lambda<br>
+                            •Briefly worked with SQL Database to evaluate the progress of projects with Agile methodology
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <p class="about-text">
+                            <em>TRIO Scholars Program</em><br>
+                            <strong><em>January 2018-May 2019</em></strong><br>
+                            •Tutored students in General Chemistry and Linear Algebra while recording student's progress on a tri-weekly basis<br>
+                            •Provided resources such as practice problems that the students could exercise their knowledge<br>
+                            <br><em>Teaching Assistant for Introduction to Databases</em><br>
+                            <strong><em>September 2019-Present</em></strong><br>
+                            •Aided students during office hours and graded as well as compiled solutions for assignments on a weekly basis
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <p class="about-text">
+                            <strong><em>July-August 2015</em></strong><br>
+                            •Graded students' papers and recorded weekly improvement in each of the focused subjects<br>
+                            •Answered student’s queries and concerns about the assignments                            
+                        </p>
+                    </div>
           </div>
-
-          <div class="col-md-6 about-content" id="exp">
-            <h3 class="about-title">CA Technologies</h3>
-            <p class="about-text">
-               Automated of z/OS Service Test scenarios utilizing the JAT (JUnit Automation Tool) framework in Eclipse Photon environment
-
-            </p>
-          </div>
+       </div>
       </div>
     </div>
   </section>
@@ -193,9 +235,71 @@
           <div class="col-md-12">
             <h3 class="section-title">Projects</h3>
             <div class="section-title-divider"></div>
-            <p class="section-description">Insights</p>
+            <p class="section-description"><em>Various links to projects that I have completed</em></p>
           </div>
-        </div>
+      </div>
+      
+      <div class="container-fluid p-0">  <!-- p-0 makes the images go edge to edge (no padding) -->
+        <div class="row no-gutters">
+  
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://github.com/hdaniel530/hdaniel530.github.io">
+              <!--  Same photo as the header, but resized.
+                    URL: https://upload.wikimedia.org/wikipedia/commons/f/f5/Free-ride.jpg
+              -->
+              <img class="img-responsive" width="100%" height="auto" src="" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <strong>hdaniel530.github.io</strong>
+                  </div>
+                  <div class="project-name">
+                    Source code for this personal website
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+  
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://github.com/hdaniel530/Machine-Learning">
+              <!--  Awesome photo of JT and random skiers from Google Photos
+                    (Personal photo taken March 15 2017 at Cannon Mt)
+                    Public URL: https://goo.gl/photos/RXYDMpAVjZmXL4MD6
+              -->
+              <img class="img-responsive" width="100%" height="auto" src="img/portfolio/thumbnails/ski-maps.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <strong>Machine Learning</strong>
+                  </div>
+                  <div class="project-name">
+                    Classifying ASL Digits
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+  
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://github.com/md3756/PriCoSha">
+              <!--  Thumbnail from Wikipedia
+              URL: https://upload.wikimedia.org/wikipedia/commons/5/5d/Scrabble_game_in_progress.jpg
+              -->
+              <img class="img-responsive" width="100%" height="auto" src="img/portfolio/thumbnails/scrabble.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <strong>PriCoSha</strong>
+                  </div>
+                  <div class="project-name">
+                    Databases project where friends can join friendgroups, as well as share, rate, and post content!
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
     </section>
 
    <!--==========================
