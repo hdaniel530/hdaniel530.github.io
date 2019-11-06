@@ -1,7 +1,7 @@
 body{
   font-family: 'Cinzel', serif;
 }
-a{
+#bg h1, a{
   color: black;
 }
 .logo{
@@ -20,6 +20,33 @@ ul{
   list-style-position: inside; */
   list-style-type: none;
 }
+.welcome {
+  position: relative;
+  overflow: hidden;
+}
+.welcome h1{
+  padding-top: 200px;
+  position: relative;
+  z-index: 3;
+}
+ .welcome p{
+  padding-bottom: 200px;
+  position: relative;
+  z-index: 3;
+} 
+.welcome img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+/* #project1{
+  background-image: url(img/nature.jpg);
+  padding: 50px;
+  background-position: center;
+} */
 #exp a{
   color: white;
 }
