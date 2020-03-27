@@ -20,8 +20,6 @@ p, ul {
   text-align: center;
 }
 ul {
-  /* text-align: center;
-  list-style-position: inside; */
   list-style-type: none;
 }
 .welcome {
@@ -41,42 +39,32 @@ ul {
 }
 
 .welcome h1 {
-  /* padding-top: 200px; */
   position: relative;
   z-index: 100;
 }
  .welcome p {
-  /* padding-bottom: 200px; */
   position: relative;
   z-index: 100;
 } 
-
-/* .project1 {
-  background-image: url(img/nature.jpg);
-  padding: 50px;
-  background-position: center;
-}  */
 
 #exp a {
   color: white;
 }
 #exp-text p {
-  /* font-family: 'Neuton', serif; */
   font-size: 14px;
   text-align: left;
 }
 
 #vol-text p {
-  /* font-family: 'Neuton', serif; */
   font-size: 14px;
   text-align: center;
 }
 
-#about, #exp, #contact, #nav1 {
+#navi, #about, #exp, #contact {
   background-image: linear-gradient(white,azure)
 
 }
-#nav, #edu, #courses, #contact1 {
+#nav, #edu, #courses, #contacts {
   background-image: linear-gradient(azure,white)
 }
 
@@ -167,6 +155,7 @@ ul {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
 /* Second effect for Experiences page */
 
 .hovereffect1 {
