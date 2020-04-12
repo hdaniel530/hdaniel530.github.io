@@ -5,9 +5,11 @@ html {
 body {
   font-family: 'Cinzel', serif;
 }
+
 #bg h1, a {
   color: black;
 }
+
 .logo {
   width: 7em;
   height: 4em;
@@ -15,21 +17,22 @@ body {
   left: 0px;
   position: relative;
 }
+
 p, ul {
   font-family: 'Quicksand';
   text-align: center;
 }
+
 ul {
   list-style-type: none;
 }
+
 .welcome {
   position: relative;
   overflow: hidden;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
+
 .welcome img {
-  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
@@ -38,18 +41,20 @@ ul {
   z-index: 0;
 }
 
-.welcome h1 {
-  position: relative;
-  z-index: 100;
+.welcome-text {
+  position: absolute;
+  background-color:white;
+  color: black;
+  top: 350px;
+  left: 450px;
+  padding: 10px;
+  opacity: 0.8;
 }
- .welcome p {
-  position: relative;
-  z-index: 100;
-} 
 
 #exp a {
   color: white;
 }
+
 #exp-text p {
   font-size: 14px;
   text-align: left;
@@ -62,7 +67,6 @@ ul {
 
 #navi, #about, #exp, #contact {
   background-image: linear-gradient(white,azure)
-
 }
 #nav, #edu, #courses, #contacts {
   background-image: linear-gradient(azure,white)
@@ -72,11 +76,13 @@ ul {
   width: 100%;
   height: 100px;
 }
+
 #nav > li, #nav1 > li {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
 }
+
 .icons {
   width: 50px;
   height: 50px;
