@@ -9,23 +9,20 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Neuton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
   <!--Header and Navigation Bar-->
-    <nav class="navbar navbar-dark bg-primary" id="navi">
+    <nav class="navbar wrapper" id="navi">
         <div class="container-fluid">
             <a class="navbar-brand js-scroll-trigger" href="index.html"><img class="logo" src="img/Logo.png"/></a>
-          <ul class="nav navbar-nav">
+          <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="index.html">Home</a></li>
             <li class="active"><a href="edu.html">Education</a></li>
-          </ul>
-          <ul class="nav navbar-nav">
             <li class="active"><a href="exp.html">Experiences</a></li>
-          </ul>
-          <ul class="nav navbar-nav">
-              <li class="active"><a href="course.html">Courses and Projects</a></li>
-          </ul>
-          <ul class="nav navbar-nav">
+            <li><a href="course.html">Courses and Projects</a></li>
             <li class="active"><a href="#contact">Contact</a></li>
         </ul>
         </div>
@@ -47,20 +44,8 @@
         </div>
       </div>
     </div>
-    <div class="container about-container wow fadeInUp">
-      <div class="row">
+    
 
-        <div class="col-lg-6 about-img">
-          <img src="img/about-img.jpg" alt="">
-        </div>
-
-        <div class="col-md-6 about-content">
-
-          <p class="about-text">
-          </p>
-        </div>
-      </div>
-    </div>
     <div class="row">
         <div class="col-md-12">
           <h3 class="section-title">Projects</h3>
@@ -68,121 +53,116 @@
           <p class="section-description"><em>Various links to projects that I have completed</em></p>
         </div>
     </div>
-    
-    <div class="container-fluid p-0">  <!-- p-0 makes the images go edge to edge (no padding) -->
-      <div class="row no-gutters">
 
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="https://github.com/hdaniel530/hdaniel530.github.io">
-            <!--  Same photo as the header, but resized.
-                  URL: https://upload.wikimedia.org/wikipedia/commons/f/f5/Free-ride.jpg
-            -->
-            <img class="img-responsive" width="100%" height="auto" src="" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  <strong>hdaniel530.github.io</strong>
-                </div>
-                <div class="project-name">
-                  Source code for this personal website
-                </div>
-              </div>
+    <div class="row">
+      <div class="col s12 m7">
+        <div class="card medium">
+            <div class="card-image">
+              <img src="img/nature.JPG">
             </div>
-          </a>
+            <div class="card-content" id="card">
+              <span>Personal Website</span>
+              <p>Source code for this website which is hosted on GitHub Pages at hdaniel530.github.io</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/hdaniel530/hdaniel530.github.io" class="waves-effect waves-light btn">View</a>
+            </div>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="https://github.com/hdaniel530/Machine-Learning">
-            <img class="img-responsive" width="100%" height="auto" src="img/portfolio/thumbnails/ski-maps.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  <strong>Machine Learning</strong>
-                </div>
-                <div class="project-name">
-                  Classifying American Sign Language (ASL) Digits
-                </div>
-              </div>
-            </div>
-          </a>
+    
+      <div class="col s12 m7">
+        <div class="card medium">
+          <div class="card-image">
+            <img src="img/ML.PNG">
+          </div>
+          <div class="card-content" id="card">
+            <span>Machine Learning Final Project</span>
+            <p>Classifying images of American Sign Language (ASL) Digits utilizing various supervised 
+              and unsupervised learning algorithms/models</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/hdaniel530/Machine-Learning" class="waves-effect waves-light btn">View</a>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <div class="col-lg-4 col-sm-6" id="project1">
-          <a class="portfolio-box" href="https://github.com/md3756/PriCoSha">
-            <!--  Thumbnail from Wikipedia
-            URL: https://upload.wikimedia.org/wikipedia/commons/5/5d/Scrabble_game_in_progress.jpg
-            -->
-            <img class="img-responsive" width="100%" height="auto" src="img" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  <strong>PriCoSha</strong>
-                </div>
-                <div class="project-name">
-                  Databases project where friends can join friendgroups, as well as share, rate, and post content!
-                </div>
-              </div>
+    <div class="row">
+      <div class="col s12 m7">
+        <div class="card medium">
+            <div class="card-image">
+              <img src="img/brooklyn_bridge.JPG">
             </div>
-          </a>
+            <div class="card-content" id="card">
+              <span>PriCoSha</span>
+              <p>Databases project where friends can join friendgroups, as well as share, rate, 
+                and post content with MySQL and Flask</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/md3756/PriCoSha" class="waves-effect waves-light btn">View</a>
+            </div>
         </div>
+      </div>
 
-        <div class="container-fluid p-0">  <!-- p-0 makes the images go edge to edge (no padding) -->
-          <div class="row no-gutters">
     
-            <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="https://github.com/hdaniel530/Scripts-Programs">
-                <!--  Same photo as the header, but resized.
-                      URL: https://upload.wikimedia.org/wikipedia/commons/f/f5/Free-ride.jpg
-                -->
-                <img class="img-responsive" width="100%" height="auto" src="" alt="">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                      <strong>Codes!</strong>
-                    </div>
-                    <div class="project-name">
-                      Repository of codes written in different languages (Python, Java, C++, C)
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+      <div class="col s12 m7">
+        <div class="card medium">
+          <div class="card-image">
+            <img src="img/lifx.jpg">
+          </div>
+          <div class="card-content" id="card">
+            <span>Codes</span>
+            <p>Repository of a few codes written in different languages during high school, 
+              college and internships (Python, Java, C++, C) such as a Python script for the Amazon Echo and LiFX bulb</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/hdaniel530/Scripts-Programs" class="waves-effect waves-light btn">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
     
-            <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="https://github.com/hdaniel530/Personal-Cookbook-Website">
-                <img class="img-responsive" width="100%" height="auto" src="img/portfolio/thumbnails/ski-maps.jpg" alt="">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                      <strong>Personal Cookbook Website</strong>
-                    </div>
-                    <div class="project-name">
-                      A personal cookbook website where users can manage cookbook, recipes and pictures of food creations, created for Applied Internet Technology course
-                    </div>
-                  </div>
-                </div>
-              </a>
+    <div class="row">
+      <div class="col s12 m7">
+        <div class="card medium">
+            <div class="card-image">
+              <img src="img/dessert.jpg">
+              <!-- <span class="card-title" style="color:black">Cookbook Website</span> -->
             </div>
-    
-            <div class="col-lg-4 col-sm-6" class="project1">
-              <a class="portfolio-box" href="https://github.com/hdaniel530/AI">
-                <!--  Thumbnail from Wikipedia
-                URL: https://upload.wikimedia.org/wikipedia/commons/5/5d/Scrabble_game_in_progress.jpg
-                -->
-                <img class="img-responsive" width="100%" height="auto" src="img" alt="">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                      <strong>AI Projects</strong>
-                    </div>
-                    <div class="project-name">
-                      Artificial Intelligence (AI) course projects that exercise concepts exlored in the course such as A* search and neural networks
-                    </div>
-                  </div>
-                </div>
-              </a>
+            <div class="card-content" id="card">
+              <span>Cookbook Website</span>
+              <p>A personalized cookbook website where users can manage cookbook, recipes and pictures of food creations, 
+                created for Applied Internet Technology course using Node.js and MongoDB
+              </p>
             </div>
+            <div class="card-action" style="padding: 1%;">
+              <a href="https://github.com/hdaniel530/Personal-Cookbook-Website" class="waves-effect waves-light btn">View</a>
+            </div>
+        </div>
+      </div>
 
+    
+      <div class="col s12 m7">
+        <div class="card medium">
+          <div class="card-image">
+            <img src="img/AI.PNG">
+            </div>
+            <div class="card-content" id="card">
+              <span>AI Projects</span>
+              <p>Artificial Intelligence (AI) course projects that exercise concepts explored 
+                such as A* search and neural networks utilizing Python</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/hdaniel530/AI" class="waves-effect waves-light btn">View</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+  
   </section>
 
 
@@ -191,53 +171,47 @@
  <!--==========================
   Contact Section
   ============================-->
-  <section class="min-padding" id="contact">
-    <footer class="page-footer font-small cyan darken-3">
-    <div class="container">
+    <section class="min-padding" id="contact">
 
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <hr class="primary">
-      </div>
-    </div>
-
-    <!-- Email, LinkedIn, and GitHub links -->
-    <div class="row">
-
-      <div class="col-4 col-sm-4 col-lg-2 offset-lg-3 text-center">
-        <a href="mailto:hannah.daniel30@gmail.com">
-          <img class="icons" src="img/email_icon.png"></i>
-        </a>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <hr class="primary">
+        </div>
       </div>
 
-      <div class="col-4 col-sm-4 col-lg-2 text-center">
-        <a href="https://www.linkedin.com/in/hannah-daniel-a530a512a">
-          <img class="icons" src="img/linkedin_icon.png"></i>
-        </a>
+      <!-- Email, LinkedIn, and GitHub links -->
+      <div class="row">
+
+        <div class="col-4 col-sm-4 col-lg-2 offset-lg-3 text-center">
+          <a href="mailto:hannah.daniel30@gmail.com">
+            <i class="medium material-icons">email</i>
+          </a>
+        </div>
+
+        <div class="col-4 col-sm-4 col-lg-2 text-center">
+          <a href="https://www.linkedin.com/in/hannah-daniel-a530a512a">
+            <img class="icons" src="img/linkedin_icon.png"></i>
+          </a>
+        </div>
+
+        <div class="col-4 col-sm-4 col-lg-2 text-center">
+          <a href="https://github.com/hdaniel530">
+            <img class="icons" src="img/github_icon.png"></i>
+          </a>
+        </div>
       </div>
 
-      <div class="col-4 col-sm-4 col-lg-2 text-center">
-        <a  class="btn-floating btn-tw mx-1"
-            href="https://github.com/hdaniel530">
-          <img class="icons" src="img/github_icon.png"></i>
-        </a>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020<br>
+        <a class="navbar-brand js-scroll-trigger" href="index.html"><img class="logo" src="img/Logo.png"/></a>
       </div>
-    </div>
-  </div>
-    <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2019<br>
-    <a class="navbar-brand js-scroll-trigger" href="index.html"><img class="logo" src="img/Logo.png"/></a>
-</div>
-<!-- Copyright -->
-
-</footer>
-
-</section>
+    </section>
 
 <!-- Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 </center>
 </body>
 </html>
