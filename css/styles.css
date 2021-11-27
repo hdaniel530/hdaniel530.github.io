@@ -51,6 +51,10 @@ ul {
   z-index: 0;
 }
 
+.edu-container img{
+  padding-bottom: 1rem;
+}
+
 .welcome-text {
   position: absolute;
   background-color:white;
@@ -75,10 +79,10 @@ ul {
   text-align: center;
 }
 
-#navi, #about, #exp, #contact {
+#navi, #about, #contact {
   background-image: linear-gradient(white,azure)
 }
-#nav, #edu, #courses, #contacts {
+#nav, #edu, #courses, #contacts, #exp {
   background-image: linear-gradient(azure,white)
 }
 
@@ -261,3 +265,75 @@ ul {
   -webkit-transition-delay:.2s;
   transition-delay:.2s;
   }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion .container {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+
+.accordion .container.active .content {
+  height: 120px;
+}
+
+/* Positions the plus sign 5px from the right. Centers it using the transform property. */
+
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.accordion .label {
+  font-family: 'Cinzel', serif;
+}
+
+/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+
+.accordion .content {
+  background: rgba(255, 255, 255, 0.582);
+  height: 0;
+  font-family: 'Quicksand';
+  font-size: 13px;
+  overflow: auto;
+  transition: 0.5s;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+}
+
+
+.accordion .container li, .accordion .container p {
+  text-align: left;
+}
+
+/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  color: black;
+  cursor: pointer;
+}
+
+/* Changes from plus sign to negative sign once active */
+
+.accordion .container.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
+
+.accordion .exp {
+  width: 100%;
+}
