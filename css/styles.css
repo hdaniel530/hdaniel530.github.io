@@ -82,7 +82,7 @@ ul {
 #navi, #about, #contact {
   background-image: linear-gradient(white,azure)
 }
-#nav, #edu, #courses, #contacts, #exp {
+#nav, #edu, #projects, #contacts, #exp {
   background-image: linear-gradient(azure,white)
 }
 
